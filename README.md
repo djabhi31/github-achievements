@@ -1,24 +1,24 @@
 <div align="center">
 
-# ðŸ† GitHub Achievements Showcase
+# 🏆 GitHub Achievements Showcase
 ### *An Automated Engineering Pipeline for GitHub Developer Milestones*
 
 [![GitHub Stars](https://img.shields.io/github/stars/djabhi31/github-achievements?style=for-the-badge&color=ffd700&logo=github)](https://github.com/djabhi31/github-achievements/stargazers)
 [![Merged PRs](https://img.shields.io/badge/Merged%20PRs-27-8a2be2?style=for-the-badge&logo=git&logoColor=white)](https://github.com/djabhi31/github-achievements/pulls?q=is%3Apr+is%3Amerged)
 [![Discussions Answered](https://img.shields.io/badge/Accepted%20Answers-32-00b4d8?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/djabhi31/github-achievements/discussions)
-[![Automation](https://img.shields.io/badge/Automated%20Via-PowerShell%20%2B%20GraphQL-2ea44f?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/djabhi31/github-achievements)
+[![Automation](https://img.shields.io/badge/Automated%20Via-REST%20%2B%20GraphQL%20API-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/djabhi31/github-achievements)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 <p align="center">
   <b>A curated showcase of GitHub collaboration badges, milestone unlocks, and developer achievements.</b><br>
-  Built with high precision via GitHub REST & GraphQL API automations.
+  Engineered with high precision via GitHub REST & GraphQL API automations.
 </p>
 
 ---
 
 </div>
 
-## ðŸŽ–ï¸ Achievement Trophy Cabinet
+## 🎖️ Achievement Trophy Cabinet
 
 <div align="center">
 <table>
@@ -26,27 +26,27 @@
     <td align="center" width="20%">
       <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/galaxy-brain-default.png" width="95" alt="Galaxy Brain"/><br/>
       <b>Galaxy Brain</b><br/>
-      <sub><kbd>ðŸ’Ž DIAMOND TIER (x32)</kbd></sub>
+      <sub><kbd>💎 DIAMOND TIER (x32)</kbd></sub>
     </td>
     <td align="center" width="20%">
       <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/pair-extraordinaire-default.png" width="95" alt="Pair Extraordinaire"/><br/>
       <b>Pair Extraordinaire</b><br/>
-      <sub><kbd>ðŸ¥‡ GOLD TIER (x24)</kbd></sub>
+      <sub><kbd>🥇 GOLD TIER (x24)</kbd></sub>
     </td>
     <td align="center" width="20%">
       <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/pull-shark-default.png" width="95" alt="Pull Shark"/><br/>
       <b>Pull Shark</b><br/>
-      <sub><kbd>ðŸ¥ˆ SILVER TIER (x16)</kbd></sub>
+      <sub><kbd>🥈 SILVER TIER (x16)</kbd></sub>
     </td>
     <td align="center" width="20%">
       <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/quickdraw-default.png" width="95" alt="Quickdraw"/><br/>
       <b>Quickdraw</b><br/>
-      <sub><kbd>âš¡ STANDARD</kbd></sub>
+      <sub><kbd>⚡ STANDARD</kbd></sub>
     </td>
     <td align="center" width="20%">
       <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/yolo-default.png" width="95" alt="YOLO"/><br/>
       <b>YOLO</b><br/>
-      <sub><kbd>ðŸš€ STANDARD</kbd></sub>
+      <sub><kbd>🚀 STANDARD</kbd></sub>
     </td>
   </tr>
 </table>
@@ -54,25 +54,25 @@
 
 ---
 
-## ðŸ“Š Milestone Matrix & Criteria Breakdown
+## 📊 Milestone Matrix & Criteria Breakdown
 
 | Badge | Highest Tier | Criteria Required | Achieved Metric | Status | Proof / Evidence |
 | :--- | :--- | :--- | :--- | :---: | :--- |
-| ðŸ’Ž **Galaxy Brain** | **Diamond (x32)** | 32 accepted answers in Q&A Discussions | **32 / 32** Accepted Answers | ![Passed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Discussions](https://github.com/djabhi31/github-achievements/discussions) |
-| ðŸ¥‡ **Pair Extraordinaire** | **Gold (x24)** | 24 co-authored merged pull requests | **25 / 24** Co-Authored PRs | ![Passed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Co-authored PRs](https://github.com/djabhi31/github-achievements/pulls?q=is%3Apr+is%3Amerged) |
-| ðŸ¥ˆ **Pull Shark** | **Silver (x16)** | 16 merged pull requests | **27 / 16** Merged PRs | ![Passed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Merged PRs](https://github.com/djabhi31/github-achievements/pulls?q=is%3Apr+is%3Amerged) |
-| âš¡ **Quickdraw** | **Standard** | Close issue/PR within 5 minutes | Closed in **< 3 seconds** | ![Passed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Issue #1](https://github.com/djabhi31/github-achievements/issues/1) |
-| ðŸš€ **YOLO** | **Standard** | Merge PR without review | Merged directly | ![Passed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [Profile Showcase](https://github.com/djabhi31?tab=achievements) |
+| 💎 **Galaxy Brain** | **Diamond (x32)** | 32 accepted answers in Q&A Discussions | **32 / 32** Accepted Answers | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Discussions](https://github.com/djabhi31/github-achievements/discussions) |
+| 🥇 **Pair Extraordinaire** | **Gold (x24)** | 24 co-authored merged pull requests | **25 / 24** Co-Authored PRs | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Co-authored PRs](https://github.com/djabhi31/github-achievements/pulls?q=is%3Apr+is%3Amerged) |
+| 🥈 **Pull Shark** | **Silver (x16)** | 16 merged pull requests | **27 / 16** Merged PRs | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Merged PRs](https://github.com/djabhi31/github-achievements/pulls?q=is%3Apr+is%3Amerged) |
+| ⚡ **Quickdraw** | **Standard** | Close issue/PR within 5 minutes | Closed in **< 3 seconds** | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Issue #1](https://github.com/djabhi31/github-achievements/issues/1) |
+| 🚀 **YOLO** | **Standard** | Merge PR without review | Merged directly | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [Profile Showcase](https://github.com/djabhi31?tab=achievements) |
 
 ---
 
-## ðŸ—ï¸ Architecture & Automation Pipeline
+## 🏗️ Architecture & Automation Pipeline
 
 This showcase was engineered using high-throughput API automation scripts interacting with GitHub's REST and GraphQL endpoints:
 
 ```mermaid
 flowchart LR
-    A[PowerShell Engine] --> B[Git Credential Helper]
+    A[PowerShell & Python Engine] --> B[Git Credential Helper]
     B --> C[GitHub REST API v3]
     B --> D[GitHub GraphQL API v4]
     
@@ -87,10 +87,10 @@ flowchart LR
 
 ---
 
-## ðŸ” Deep-Dive: How Each Achievement Works
+## 🔍 Deep-Dive: How Each Achievement Works
 
 <details>
-<summary><b>1. ðŸ’Ž Galaxy Brain (Diamond Tier - x32)</b></summary>
+<summary><b>1. 💎 Galaxy Brain (Diamond Tier - x32)</b></summary>
 <br>
 
 - **What it is:** Recognizes active community members who answer questions in repository Discussions.
@@ -103,7 +103,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>2. ðŸ¥‡ Pair Extraordinaire (Gold Tier - x24)</b></summary>
+<summary><b>2. 🥇 Pair Extraordinaire (Gold Tier - x24)</b></summary>
 <br>
 
 - **What it is:** Recognizes collaborative pair programming and team commits.
@@ -118,7 +118,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>3. ðŸ¥ˆ Pull Shark (Silver Tier - x16)</b></summary>
+<summary><b>3. 🥈 Pull Shark (Silver Tier - x16)</b></summary>
 <br>
 
 - **What it is:** Given to developers actively submitting and merging pull requests.
@@ -130,7 +130,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>4. âš¡ Quickdraw</b></summary>
+<summary><b>4. ⚡ Quickdraw</b></summary>
 <br>
 
 - **What it is:** Awarded for lightning-fast responsiveness on GitHub issues or pull requests.
@@ -140,13 +140,13 @@ flowchart LR
 
 ---
 
-## ðŸŒŸ Show Your Support
+## ⭐ Show Your Support
 
-If you found this showcase or repository interesting, feel free to **star â­ this repository**!
+If you found this showcase or repository interesting, feel free to **star ⭐ this repository**!
 
 <div align="center">
 
-Made with â¤ï¸ by [**@djabhi31**](https://github.com/djabhi31)
+Made with ❤️ by [**@djabhi31**](https://github.com/djabhi31)
 
 [![Follow @djabhi31](https://img.shields.io/github/followers/djabhi31?label=Follow%20%40djabhi31&style=social)](https://github.com/djabhi31)
 
