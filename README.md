@@ -1,28 +1,24 @@
 <div align="center">
 
-# 🏆 GitHub Achievements Hunter & Auto-Unlocker
-### *Autonomous CLI & 1-Click GitHub Action to Unlock Every GitHub Badge & Tier*
+# 🏆 GitHub Achievements Showcase
+### *An Automated Engineering Pipeline for GitHub Developer Milestones*
 
 [![GitHub Stars](https://img.shields.io/github/stars/djabhi31/github-achievements?style=for-the-badge&color=ffd700&logo=github)](https://github.com/djabhi31/github-achievements/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/djabhi31/github-achievements?style=for-the-badge&color=blue&logo=github)](https://github.com/djabhi31/github-achievements/network/members)
-[![Merged PRs](https://img.shields.io/badge/PRs%20Automated-27-8a2be2?style=for-the-badge&logo=git&logoColor=white)](https://github.com/djabhi31/github-achievements/pulls?q=is%3Apr+is%3Amerged)
+[![Merged PRs](https://img.shields.io/badge/Merged%20PRs-27-8a2be2?style=for-the-badge&logo=git&logoColor=white)](https://github.com/djabhi31/github-achievements/pulls?q=is%3Apr+is%3Amerged)
 [![Discussions Answered](https://img.shields.io/badge/Accepted%20Answers-32-00b4d8?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/djabhi31/github-achievements/discussions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Automation](https://img.shields.io/badge/Automated%20Via-REST%20%2B%20GraphQL%20API-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/djabhi31/github-achievements)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 <p align="center">
-  <b>Tired of having an empty GitHub Achievements section?</b><br>
-  Unlock <b>Quickdraw</b>, <b>Pull Shark</b>, <b>Pair Extraordinaire</b>, and <b>Galaxy Brain</b> (up to Diamond tier) with a single click or command!
+  <b>A curated showcase of GitHub collaboration badges, milestone unlocks, and developer achievements.</b><br>
+  Engineered with high precision via GitHub REST & GraphQL API automations.
 </p>
-
-[🚀 Quick Start](#-quick-start-how-to-unlock) • [🎖️ Trophy Cabinet](#️-trophy-cabinet) • [📊 Criteria Breakdown](#-criteria--tiers-unlocked) • [⭐ Star This Project](#-support--star)
 
 ---
 
 </div>
 
-## 🎖️ Trophy Cabinet
-
-Here are the badges unlocked and showcased by this repository:
+## 🎖️ Achievement Trophy Cabinet
 
 <div align="center">
 <table>
@@ -58,99 +54,99 @@ Here are the badges unlocked and showcased by this repository:
 
 ---
 
-## 🚀 Quick Start: How to Unlock for Your Profile
+## 📊 Milestone Matrix & Criteria Breakdown
 
-You can unlock all these achievements in **under 3 minutes** using either method:
-
-### 🔹 Method 1: 1-Click GitHub Action *(Zero Installation)*
-
-1. **Fork this repository:** Click the [**Fork** button](https://github.com/djabhi31/github-achievements/fork) at the top right of this page.
-2. Go to your forked repo's **Actions** tab.
-3. Click on **"🏆 1-Click GitHub Achievement Unlocker"** in the left sidebar.
-4. Click **Run workflow** -> select target tier (e.g. `max` for Diamond & Gold) -> Click **Run workflow**.
-5. Wait ~2 minutes for the workflow to complete.
-6. Check your GitHub profile in 15–30 minutes!
-
-*(Note: For Galaxy Brain and full permissions, you can optionally add a PAT with `repo` scope under Settings -> Secrets and variables -> Actions as `PERSONAL_ACCESS_TOKEN`).*
+| Badge | Highest Tier | Criteria Required | Achieved Metric | Status | Proof / Evidence |
+| :--- | :--- | :--- | :--- | :---: | :--- |
+| 💎 **Galaxy Brain** | **Diamond (x32)** | 32 accepted answers in Q&A Discussions | **32 / 32** Accepted Answers | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Discussions](https://github.com/djabhi31/github-achievements/discussions) |
+| 🥇 **Pair Extraordinaire** | **Gold (x24)** | 24 co-authored merged pull requests | **25 / 24** Co-Authored PRs | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Co-authored PRs](https://github.com/djabhi31/github-achievements/pulls?q=is%3Apr+is%3Amerged) |
+| 🥈 **Pull Shark** | **Silver (x16)** | 16 merged pull requests | **27 / 16** Merged PRs | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Merged PRs](https://github.com/djabhi31/github-achievements/pulls?q=is%3Apr+is%3Amerged) |
+| ⚡ **Quickdraw** | **Standard** | Close issue/PR within 5 minutes | Closed in **< 3 seconds** | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [View Issue #1](https://github.com/djabhi31/github-achievements/issues/1) |
+| 🚀 **YOLO** | **Standard** | Merge PR without review | Merged directly | ![Completed](https://img.shields.io/badge/Completed-100%25-2ea44f?style=flat-square) | [Profile Showcase](https://github.com/djabhi31?tab=achievements) |
 
 ---
 
-### 🔹 Method 2: Local Python CLI Tool
+## 🏗️ Architecture & Automation Pipeline
 
-Run it directly on your machine without installing any dependencies (uses standard Python library):
+This showcase was engineered using high-throughput API automation scripts interacting with GitHub's REST and GraphQL endpoints:
 
-```bash
-# 1. Clone this repository
-git clone https://github.com/djabhi31/github-achievements.git
-cd github-achievements
-
-# 2. Run the unlocker script
-python unlocker.py
-```
-
-The script will automatically detect your git credentials or prompt for your GitHub Token, create an isolated sandbox repository, and unlock all badges automatically!
-
-#### CLI Flags:
-```bash
-# Unlock up to maximum Diamond & Gold tiers
-python unlocker.py --level max
-
-# Unlock up to Silver tiers
-python unlocker.py --level silver
-
-# Run in automated CI mode
-python unlocker.py --automated --level max --repo my-achievements-sandbox
+```mermaid
+flowchart LR
+    A[PowerShell & Python Engine] --> B[Git Credential Helper]
+    B --> C[GitHub REST API v3]
+    B --> D[GitHub GraphQL API v4]
+    
+    C -->|Git Data API| E[27 Merged PRs & Co-Authorship]
+    C -->|Issues API| F[Instant Issue Closure]
+    D -->|Discussions API| G[32 Q&A Accepted Answers]
+    
+    E --> H[Pull Shark & Pair Extraordinaire Badges]
+    F --> I[Quickdraw Badge]
+    G --> J[Diamond Galaxy Brain Badge]
 ```
 
 ---
 
-## 📊 Criteria & Tiers Unlocked
+## 🔍 Deep-Dive: How Each Achievement Works
 
-| Badge | Highest Tier | Criteria Required | Tool Automation |
-| :--- | :--- | :--- | :--- |
-| 💎 **Galaxy Brain** | **Diamond (x32)** | 32 accepted answers in Q&A Discussions | GraphQL API creates 32 Q&A discussions & marks answers accepted. |
-| 🥇 **Pair Extraordinaire** | **Gold (x24)** | 24 co-authored merged pull requests | Automates 25 PRs with RFC-compliant co-authorship commit trailers. |
-| 🥈 **Pull Shark** | **Silver (x16)** | 16 merged pull requests | Automatically generates branches, files, and merges 27 PRs. |
-| ⚡ **Quickdraw** | **Standard** | Close issue/PR within 5 minutes | Opens an issue and closes it within < 2 seconds. |
-| 🚀 **YOLO** | **Standard** | Merge PR without review | Direct PR merge without review requirement. |
+<details>
+<summary><b>1. 💎 Galaxy Brain (Diamond Tier - x32)</b></summary>
+<br>
+
+- **What it is:** Recognizes active community members who answer questions in repository Discussions.
+- **Criteria:** Answer marked as the "accepted answer" in Q&A discussion categories.
+  - Tier 1 (Bronze): 2 accepted answers
+  - Tier 2 (Silver): 8 accepted answers
+  - Tier 3 (Gold): 16 accepted answers
+  - Tier 4 (Diamond): 32 accepted answers
+- **Implementation:** Automated via GitHub GraphQL API mutations (`createDiscussion`, `addDiscussionComment`, and `markDiscussionCommentAsAnswer`).
+</details>
+
+<details>
+<summary><b>2. 🥇 Pair Extraordinaire (Gold Tier - x24)</b></summary>
+<br>
+
+- **What it is:** Recognizes collaborative pair programming and team commits.
+- **Criteria:** Merging a pull request containing commits co-authored by multiple developers.
+  - Tier 1 (Bronze): 1 co-authored PR
+  - Tier 2 (Silver): 10 co-authored PRs
+  - Tier 3 (Gold): 24 co-authored PRs
+- **Implementation:** Git trailers formatted with RFC 2822:
+  ```git
+  Co-authored-by: octocat <octocat@github.com>
+  ```
+</details>
+
+<details>
+<summary><b>3. 🥈 Pull Shark (Silver Tier - x16)</b></summary>
+<br>
+
+- **What it is:** Given to developers actively submitting and merging pull requests.
+- **Criteria:**
+  - Tier 1 (Bronze): 2 merged pull requests
+  - Tier 2 (Silver): 16 merged pull requests
+  - Tier 3 (Gold): 128 merged pull requests
+- **Implementation:** Orchestrated through programmatic branch branching, content tree updates, PR creation, and automated merges.
+</details>
+
+<details>
+<summary><b>4. ⚡ Quickdraw</b></summary>
+<br>
+
+- **What it is:** Awarded for lightning-fast responsiveness on GitHub issues or pull requests.
+- **Criteria:** Closing an issue or PR within 5 minutes of opening it.
+- **Implementation:** Programmatic creation followed by instantaneous state modification (`state: closed`) within 2 seconds.
+</details>
 
 ---
 
-## ❓ Frequently Asked Questions (FAQ)
+## ⭐ Support
 
-<details>
-<summary><b>1. Will this affect my existing repositories?</b></summary>
-<br>
-No! The tool creates and uses a dedicated sandbox repository (e.g., <code>github-achievements-sandbox</code>). None of your existing repositories or code are touched.
-</details>
-
-<details>
-<summary><b>2. How long before badges appear on my profile?</b></summary>
-<br>
-GitHub evaluates achievements asynchronously in background queues. Badges typically appear on your profile within <b>15 to 45 minutes</b>. Refresh your profile achievements page after some time.
-</details>
-
-<details>
-<summary><b>3. What should I do with the sandbox repository afterwards?</b></summary>
-<br>
-Do <b>not</b> delete it immediately! GitHub may revoke badges if the underlying repository is deleted before or during calculation. Best practice is to leave it public or <b>Archive</b> it once badges appear.
-</details>
-
-<details>
-<summary><b>4. How do I get the Starstruck badge?</b></summary>
-<br>
-The <b>Starstruck</b> badge requires 16 stars from other unique GitHub users on one of your repositories. By sharing this open-source tool with others, you can earn stars organically!
-</details>
-
----
-
-## ⭐ Support & Star
-
-If this repository or tool helped you unlock your GitHub achievements, please consider giving it a **Star ⭐**! It helps others discover the project and helps the maintainer unlock the Starstruck badge!
+If you found this showcase interesting, feel free to **star ⭐ this repository**!
 
 <div align="center">
 
-Crafted with ❤️ by [**@djabhi31**](https://github.com/djabhi31)
+Made with ❤️ by [**@djabhi31**](https://github.com/djabhi31)
 
 [![Follow @djabhi31](https://img.shields.io/github/followers/djabhi31?label=Follow%20%40djabhi31&style=social)](https://github.com/djabhi31)
 
